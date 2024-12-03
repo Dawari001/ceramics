@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+.header{
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 10px;
+height: 80px;
+}
+
+   .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+   }
+   .right{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 12rem; */
+  
+
+   }
+   .header img{
+      width: 80px;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   .second{
+    width: 100%;
+    background-image: url(image/main.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+   h1{
+    color: white;
+    font-size: 90px;
+     text-align: center;
+    
+   }
+   h4{
+    color: white;
+    width: 55%;
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 30px;
+    
+   }
+   button{
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20PX;
+    background-color: rgb(184, 54, 14);
+    border:  1px solid white;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+   }
+/* .container2{
+    margin-top: 30px;
+}
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+
+}
+img{
+    width: 30%;
+} */
+
+.state{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    height: 400px;
+    animation-fill-mode: forwards;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+    /* transition: all ease-in-out; */
+
+}
+.product img:hover{
+    object-fit: cover;
+    transition-delay: 3s;
+
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+.codm{
+    background-color: #5c5c5c;
+font-size: 90px;}
+.cod{
+    
+    display: flex;
+    justify-content: end;
+
+}
